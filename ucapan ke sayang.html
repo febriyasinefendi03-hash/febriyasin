@@ -1,0 +1,349 @@
+<!<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Sayang ❤️</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body{
+      background: linear-gradient(135deg,#111,#1d1d1d,#2b2b2b);
+      color:white;
+      overflow-x:hidden;
+    }
+
+    /* LOGIN */
+    .login-page{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+    }
+
+    .login-box{
+      width:350px;
+      background:rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      padding:35px;
+      border-radius:25px;
+      text-align:center;
+      box-shadow:0 0 25px rgba(255,255,255,0.1);
+    }
+
+    .login-box h1{
+      margin-bottom:10px;
+      font-size:28px;
+    }
+
+    .login-box p{
+      color:#ccc;
+      margin-bottom:25px;
+    }
+
+    .login-box input{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:12px;
+      margin-bottom:15px;
+      background:#2d2d2d;
+      color:white;
+      outline:none;
+    }
+
+    .login-box button{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:12px;
+      background:#ff4f81;
+      color:white;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .login-box button:hover{
+      transform:scale(1.05);
+      background:#ff2f6d;
+    }
+
+    /* MAIN */
+    .main{
+      display:none;
+      animation:fade 1s ease;
+    }
+
+    @keyframes fade{
+      from{opacity:0}
+      to{opacity:1}
+    }
+
+    /* HERO */
+    .hero{
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      position:relative;
+    }
+
+    .hero h1{
+      font-size:55px;
+      margin-bottom:15px;
+      color:#ff7ba5;
+    }
+
+    .hero p{
+      max-width:700px;
+      color:#ddd;
+      line-height:1.8;
+      font-size:18px;
+    }
+
+    .btn{
+      margin-top:30px;
+      padding:14px 30px;
+      border:none;
+      border-radius:30px;
+      background:#ff4f81;
+      color:white;
+      cursor:pointer;
+      font-size:16px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      transform:scale(1.05);
+    }
+
+    /* FOTO */
+    .gallery{
+      padding:80px 20px;
+      text-align:center;
+    }
+
+    .gallery h2{
+      margin-bottom:40px;
+      font-size:40px;
+      color:#ff7ba5;
+    }
+
+    .photos{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .photos img{
+      width:100%;
+      height:320px;
+      object-fit:cover;
+      border-radius:20px;
+      transition:0.4s;
+      box-shadow:0 0 15px rgba(255,255,255,0.1);
+    }
+
+    .photos img:hover{
+      transform:scale(1.03);
+    }
+
+    /* PESAN */
+    .message{
+      padding:100px 20px;
+      text-align:center;
+      background:#181818;
+    }
+
+    .message h2{
+      font-size:40px;
+      margin-bottom:25px;
+      color:#ff7ba5;
+    }
+
+    .message p{
+      max-width:800px;
+      margin:auto;
+      line-height:2;
+      color:#ddd;
+      font-size:18px;
+    }
+
+    /* MUSIC */
+    .music{
+      text-align:center;
+      padding:50px 20px;
+    }
+
+    .music audio{
+      width:300px;
+    }
+
+    /* FOOTER */
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#999;
+      font-size:14px;
+    }
+
+    /* LOVE ANIMATION */
+    .love{
+      position:fixed;
+      top:-20px;
+      color:#ff4f81;
+      animation:fall linear forwards;
+      z-index:999;
+    }
+
+    @keyframes fall{
+      to{
+        transform:translateY(110vh);
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- LOGIN -->
+  <div class="login-page" id="loginPage">
+    <div class="login-box">
+      <h1>❤️ Welcome</h1>
+      <p>Masukkan nama panggilan kita</p>
+
+      <input type="password" id="password" placeholder="Contoh: sayangaku">
+
+      <button onclick="login()">Masuk</button>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main" id="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Happy Birthday My Love ( NURUL RISKA )🎂❤️</h1>
+
+      <p>
+        Selamat ulang tahun sayangku ❤️
+
+Terima kasih sudah hadir di hidupku dan membuat semuanya terasa lebih indah.
+Aku bersyukur banget bisa kenal kamu, bisa ketawa bareng kamu, dan bisa punya banyak kenangan indah sama kamu.
+
+Mungkin aku bukan orang paling sempurna,
+tapi satu hal yang pasti,
+aku selalu tulus sayang sama kamu.
+
+Semoga di umur yang baru ini kamu selalu sehat, bahagia, dimudahkan semua urusannya, dan semua impianmu bisa tercapai satu per satu.
+
+Kalau suatu hari kamu capek, jangan lupa kalau aku selalu ada buat kamu.
+Dan kalau dunia lagi jahat sama kamu, pulang aja ke aku ❤️
+
+Aku cuma mau bilang…
+terima kasih karena sudah bertahan sejauh ini bersamaku.
+
+Happy Birthday cintaku 🎂🤍
+      </p>
+
+      <button class="btn" onclick="showAlert()">
+        Klik Pesan Special 💌
+      </button>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery">
+      <h2>Our Memories 📸</h2>
+
+      <div class="photos">
+        <img src="foto1.jpg">
+        <img src="foto2.jpg">
+        <img src="foto3.jpg">
+        <img src="foto4.jpg">
+      </div>
+    </section>
+
+    <!-- MESSAGE -->
+    <section class="message">
+      <h2>Untuk Kamu ❤️</h2>
+
+      <p>
+        Aku mungkin bukan orang paling sempurna,
+        tapi aku selalu berusaha menjadi yang terbaik untukmu.
+        Terima kasih sudah bertahan sejauh ini,
+        terima kasih untuk semua tawa, perhatian, dan cinta yang kamu kasih.
+        Semoga ulang tahun ini membawa banyak kebahagiaan buat kamu.
+        Dan satu hal yang harus kamu tau...
+        aku akan selalu sayang sama kamu 🤍
+      </p>
+    </section>
+
+    <!-- MUSIC -->
+    <section class="music">
+      <h2 style="margin-bottom:20px;color:#ff7ba5;">Lagu Kita 🎵</h2>
+
+      <audio controls autoplay loop>
+        <source src="lagu.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <footer>
+      Dibuat dengan cinta ❤️
+    </footer>
+
+  </div>
+
+  <script>
+
+    // LOGIN
+    function login(){
+      const pass = document.getElementById("password").value;
+
+      if(pass === "sayangaku"){
+        document.getElementById("loginPage").style.display = "none";
+        document.getElementById("main").style.display = "block";
+      } else {
+        alert("Password salah 😢");
+      }
+    }
+
+    // PESAN SPECIAL
+    function showAlert(){
+      alert("Terima kasih sudah menjadi rumah terbaik untuk hatiku. Aku bersyukur bisa mengenalmu, tertawa bersamamu, dan mencintaimu sampai hari ini. Aku mungkin tidak sempurna, tapi cintaku ke kamu akan selalu tulus. Semoga kita selalu bersama ya ❤️");
+    }
+
+    // LOVE FALLING
+    function createLove(){
+      const love = document.createElement("div");
+      love.classList.add("love");
+      love.innerHTML = "❤️";
+
+      love.style.left = Math.random() * window.innerWidth + "px";
+      love.style.animationDuration = (Math.random() * 3 + 2) + "s";
+      love.style.fontSize = (Math.random() * 20 + 15) + "px";
+
+      document.body.appendChild(love);
+
+      setTimeout(() => {
+        love.remove();
+      },5000);
+    }
+
+    setInterval(createLove,300);
+
+  </script>
+
+</body>
+</html>
